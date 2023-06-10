@@ -1,0 +1,84 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image:url(daun.jpg);
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+.portofolio-section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.portofolio-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.portofolio-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portofolio-item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.portofolio-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portofolio-item h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.portofolio-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* CSS Document */
+
